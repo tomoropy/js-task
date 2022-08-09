@@ -32,12 +32,3 @@ if(month === undefined){
 }else if(month > 12){
   console.log("引数は1から12までを指定してください");
 }
-
-// # 引数の範囲が正しい場合
-// elsif argv.between?(1, 12)
-// 	create_calender(argv)
-
-// # 引数が12より大きい場合
-// elsif argv > 12
-// 	puts 'cal: 22 is neither a month number (1..12) nor a name'
-// end
