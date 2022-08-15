@@ -29,6 +29,6 @@ if(month === undefined){
   create_calender(month + 1);
 }else if(month >= 1 && month <= 12){
   create_calender(month);
-}else if(month > 12){
+}else{
   console.log("引数は1から12までを指定してください");
 }
