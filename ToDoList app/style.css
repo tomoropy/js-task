@@ -1,0 +1,67 @@
+body {
+  background-color: antiquewhite;
+  overflow-wrap: word-break;
+}
+
+.wrapper {
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.header {
+  padding: 10px;
+}
+
+.input-area, .submit{
+  font-size: 1.5rem;
+}
+
+.status-filed {
+  margin-top: 30px;
+}
+
+.status {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.status-item {
+  font-size: 1rem;
+  margin-right: 10px;
+  color: blueviolet;
+}
+
+.list-filed {
+  border: 1.5px solid;
+  border-radius: 5px;
+  min-height: 200px;
+}
+
+.lists {
+  padding: 9px;
+}
+
+.item {
+  display: flex;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.completed {
+  opacity: 0.5;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.text {
+  margin-right: auto;
+}
+.btn {
+  margin-right: 10px;
+}
